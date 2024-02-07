@@ -63,7 +63,7 @@ namespace AzureFunctionSql
 
         private static SqlConnection GetConnection()
         {
-            string connectionString = "Server=tcp:appserver5000.database.windows.net,1433;Initial Catalog=appdb;Persist Security Info=False;User ID=mmonzon;Password=Azure@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            string connectionString = "";
             return new SqlConnection(connectionString);
         }
     }
